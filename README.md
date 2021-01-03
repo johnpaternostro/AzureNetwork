@@ -65,7 +65,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/dockerps.png)
+![image](Images/dockerps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -95,3 +95,8 @@ SSH into the control node and follow the steps below:
 The hosts file must be updated and the specified machine IP must be added under "webservers"
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://52.188.148.250:5601/app/kibana
+
+### Example Images
+![image](Images/dvwa1.png)
+![image](Images/dvwa2.png)
+![image](Images/kibana.png)
