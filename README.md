@@ -92,10 +92,10 @@ SSH into the control node and follow the steps below:
 /etc/ansible/elk-playbook.yml gets copied to the directory
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-The hosts file must be updated and the specified machine IP must be added under "webservers"
+  - The hosts file must be updated and the specified machine IP must be added under "webservers"
 
 - _Which URL do you navigate to in order to check that the ELK server is running_
-http://52.188.148.250:5601/app/kibana
+  - http://52.188.148.250:5601/app/kibana
 
 ### Example Images
 ![image](Images/dvwa1.png)
